@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: study_auth
+  server:
+    context-path: /api/auth/v1
+netty:
+  default:
+    allocator:
+      max-order: 3
